@@ -152,8 +152,8 @@ a {
 	}
 
 	.text {
-		top: 29%;
-		left: 19%;
+		top: 34%;
+		left: 15%;
 		padding: 2%;
 	}
 
@@ -171,9 +171,6 @@ a {
 	input[type=checkbox]:checked ~ .menu {
 		display: flex;
 		flex-direction: column;
-	}
-
-	input[type=checkbox]:checked ~ .container1 {
 	}
 
 	.hamburger {
