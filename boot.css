@@ -141,7 +141,6 @@ a {
 	.container1 {
 		margin-top: 40%;
 	}
-
 	.item {
 		margin: 2%;
 		display: flex;
@@ -152,8 +151,8 @@ a {
 	}
 
 	.text {
-		top: 34%;
-		left: 15%;
+		top: 40%;
+		left: 17%;
 		padding: 2%;
 	}
 
@@ -171,6 +170,10 @@ a {
 	input[type=checkbox]:checked ~ .menu {
 		display: flex;
 		flex-direction: column;
+	}
+
+	input[type=checkbox]:checked ~ .hamburger {
+		display: block;
 	}
 
 	.hamburger {
